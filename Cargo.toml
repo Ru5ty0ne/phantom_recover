@@ -1,0 +1,12 @@
+[package]
+name = "phantom-recover"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rusty 0ne <4fun.and.job.offers@gmail.com>"]
+description = "Import/export of keys from Phantom wallet"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "1.7.11"
+clap = "2.33.3"
